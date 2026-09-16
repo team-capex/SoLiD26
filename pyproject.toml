@@ -1,0 +1,16 @@
+[project]
+name = "solid-liquid-dataset"
+version = "0.1.0"
+description = "Data ingestion and preparation pipeline for the solid-liquid dataset."
+readme = "README.md"
+requires-python = ">=3.11.3"
+dependencies = [
+    "ase>=3.26.0",
+    "ase-db-backends>=0.10.0",
+    "pandas>=2.3.3",
+    "pyyaml>=6.0.3",
+    "mace-torch==0.3.16",
+    "cuequivariance-torch==0.10.0",
+    "cuequivariance-ops-torch-cu13==0.10.0",
+    "torch-dftd",
+]

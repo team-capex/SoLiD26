@@ -1,0 +1,12 @@
+directories:
+  - "/search/this/dir/"
+patterns:
+  - "OUTCAR*"
+  - "*.traj"
+  - "*.xyz"
+filters:
+  - "software"
+  - "src"
+  - "install"
+  - "tutorials"
+  - "unconverged"
